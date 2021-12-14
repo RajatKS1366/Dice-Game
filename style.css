@@ -1,0 +1,54 @@
+.div1,
+.div2 {
+  position: relative;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six {
+  visibility: hidden;
+  position: absolute;
+  /* left: 0px; */
+}
+
+#one1,
+#two1,
+#three1,
+#four1,
+#five1,
+#six1 {
+  visibility: hidden;
+  position: absolute;
+  left: 50%;
+  /* top: 275px; */
+}
+#msg {
+  text-align: center;
+}
+.dices {
+  display: flex;
+}
+/* 
+.harry {
+  width: 1050px;
+  background-color: red;
+  height: 20px;
+} */
+
+@media (max-width: 400px) {
+  .dices {
+    display: block;
+    /* text-align: center;
+    justify-content: center; */
+  }
+  .div1 {
+    left: 70px;
+  }
+  .div2 {
+    top: 50vh;
+    left: -130px;
+  }
+}
